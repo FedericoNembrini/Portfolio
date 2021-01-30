@@ -10,7 +10,7 @@
         <div class="clients">
           {{ range .Site.Data.homepage.client_and_work.clients }}
           <div class="clients__item">
-            <a href="https://radity.com">
+            <a href="https://radity.com" target="_blank" rel="noopener">
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -34,9 +34,10 @@
         <p class="lead">
           {{ .description | safeHTML }}
         </p>
-        <a href="{{ .button.URL | absURL }}" target="_blank" class="btn btn-primary"
-          >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
-        ></a>
+        <a href="{{ .button.URL | absURL }}" target="_blank" rel="noopener" class="btn btn-primary">
+          {{ .button.btnText }}
+          <i class="{{ .button.icon }}"></i>
+        </a>
       </div>
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <img
@@ -62,9 +63,10 @@
         <p class="lead">
           {{ .description | safeHTML }}
         </p>
-        <a href="{{ .button.URL | absURL }}" target="_blank"  class="btn btn-primary"
-          >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
-        ></a>
+        <a href="{{ .button.URL | absURL }}" target="_blank" rel="noopener" class="btn btn-primary">
+          {{ .button.btnText }}
+          <i class="{{ .button.icon }}"></i>
+        </a>
       </div>
       {{ end }}
     </div>

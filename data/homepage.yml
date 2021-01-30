@@ -8,7 +8,7 @@ showcase:
   title: "Ciao, sono Federico"
   subtitle: "Full-Stack Developer"
   description:
-    "Lavoro presso <a target='_blank' href='https://www.gea-solution.com/'>Gea Advanced Solutions</a>, un'azienda di sviluppo software con sede in Svizzera.
+    "Lavoro presso <a target='_blank' href='https://www.gea-solution.com/' rel='noopener'>Gea Advanced Solutions</a>, un'azienda di sviluppo software con sede in Svizzera.
     <br/>
      Appassionato di tecnologia, privacy e ambiente."
   image:
@@ -24,9 +24,11 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
+      description: "LinkedIn"
       URL: "https://it.linkedin.com/in/federico-nembrini"
 
     - icon: "github"
+      description: "GitHub"
       URL: "https://github.com/FedericoNembrini"
 
     # - icon: "twitter"
@@ -121,7 +123,7 @@ client_and_work:
 
   works:
     - title: "Fashion Editorials - Mobile App and Services"
-      description: "Applicazione sviluppata per proporre un'alternativa di visualizzazione al sito <a target='_blank' href='https://www.fashioneditorials.com/'>FashionEditorials.com</a>"
+      description: "Personale applicazione sviluppata per proporre un'alternativa di visualizzazione al sito <a target='_blank' href='https://www.fashioneditorials.com/' rel='noopener'>FashionEditorials.com</a>"
       button:
         icon: "icon-arrow-right"
         btnText: "Vimeo"
