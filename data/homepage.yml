@@ -8,9 +8,9 @@ showcase:
   title: "Ciao, sono Federico"
   subtitle: "Full-Stack Developer"
   description:
-    "Lavoro presso <a target='_blank' href='https://www.gea-solution.com/' rel='noopener'>Gea Advanced Solutions</a>, un'azienda di sviluppo software con sede in Svizzera.
+    "Lavoro presso <a target='_blank' href='https://www.gea-solution.com/' rel='noopener'>Gea Advanced Solutions</a>, un'azienda di consulenza e sviluppo software con sede in Svizzera.
     <br/>
-     Appassionato di tecnologia, privacy e ambiente."
+     Appassionato di tecnologia, blockchain, privacy ed ambiente."
   image:
     x: "img/showcase/showcase_custom.png"
     _2x: "img/showcase/showcase_custom@2x.png"
@@ -60,7 +60,7 @@ about:
   enable: true
   title: "Chi sono?"
   content: '<p class="lead">
-    Mi presento, sono Federico e ho 21 anni.
+    Mi presento, sono Federico e ho 22 anni.
     </p>
     <p class="lead">
     Appassionato a tutto quello che riguarda il mondo della teconolgia, dell''energia e dell''ambiente.
@@ -86,7 +86,7 @@ education:
 experience:
   enable: true
   title: "Educazione ed Esperienza"
-  description: "Più di due anni di esperienza nello sviluppo software indirizzati a aziende e consumatori privati."
+  description: "Più di tre anni di esperienza nello sviluppo software indirizzato ad aziende e consumatori privati."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
