@@ -122,6 +122,19 @@ client_and_work:
     #   alt: "Earth 2.0"
 
   works:
+    - title: "Giorgio Turati - Web Portfolio"
+      description: "Portfolio web sviluppato secondo le indicazioni del collega ed amico Giorgio Turati, fashion designer.
+      <br>
+      Il progetto comprende lo sviluppo di un sito web statico realizzato tramite il framework \"Hugo\", pubblicato tramite Netlify utilizzando l'integrazione contiua collegata a GitHub."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Visita"
+        URL: "https://www.giorgioturati.com"
+      image:
+        x: "img/works/GiorgioTurati_Portfolio_@1x.png"
+        _2x: "mg/works/GiorgioTurati_Portfolio_@2x.png"
+      is_even: false
+    
     - title: "Fashion Editorials - Mobile App and Services"
       description: "Personale applicazione sviluppata per proporre un'alternativa di visualizzazione al sito <a target='_blank' href='https://www.fashioneditorials.com/' rel='noopener'>FashionEditorials.com</a>"
       button:
