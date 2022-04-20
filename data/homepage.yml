@@ -94,7 +94,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Scarica il mio curriculum"
-    URL: "documents/Curriculum.pdf"
+    URL: "documents/Federico Nembrini - Curriculum.pdf"
 
   items:
     - title: "Full-Stack Developer"
