@@ -35,7 +35,7 @@ URL = "#portfolio"
 weight = 2
 
 [[menu.header]]
-name = "Contatti"
+name = "Contacts"
 URL = "#contact"
 weight = 3
 
@@ -50,7 +50,7 @@ URL = "#portfolio"
 weight = 2
 
 [[menu.footer]]
-name = "Contatti"
+name = "Contacts"
 URL = "#contact"
 weight = 3
 
@@ -68,7 +68,7 @@ text1 = "Federico"
 text2 = "Nembrini"
 
 [params.footer]
-copyright = "© 2021 Federico Nembrini"
+copyright = "© 2023 Federico Nembrini"
 [params.footer.radity_logo]
 x = "img/general/design-and-code-radity.png"
 _2x = "img/general/design-and-code-radity@2x.png"

@@ -5,12 +5,12 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "Ciao, sono Federico"
+  title: "Hi, I'm Federico"
   subtitle: "Full-Stack Developer"
   description:
-    "Lavoro presso <a target='_blank' href='https://www.gea-solution.com/' rel='noopener'>Gea Advanced Solutions</a>, un'azienda di consulenza e sviluppo software con sede in Svizzera.
+    "I work at <a target='_blank' href='https://www.gea-solution.com/' rel='noopener'>Gea Advanced Solutions</a>, a consulting and software development company based in Switzerland.
     <br/>
-     Appassionato di tecnologia, blockchain, privacy ed ambiente."
+    Passionate about technology, blockchain, privacy and the environment."
   image:
     x: "img/showcase/showcase_custom.png"
     _2x: "img/showcase/showcase_custom@2x.png"
@@ -19,7 +19,7 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contatto"
+    btnText: "Contacts"
     URL: "#contact"
 
   socialLinks:
@@ -76,38 +76,43 @@ about:
 # education
 education:
   enable: true
-  title: "Educazione"
+  title: "Education"
   items:
     - university: "I.T.I.S. Magistri Cumacini"
-      year: "2012-2017"
-      degree: "Informatica e Telecomunicazioni"
+      year: "2013 - 2018"
+      degree: "Information Technology and Telecommunications"
 
 # experience
 experience:
   enable: true
-  title: "Educazione ed Esperienza"
-  description: "Più di tre anni di esperienza nello sviluppo software indirizzato ad aziende e consumatori privati."
+  title: "Education and Experience"
+  description: "More than four years of experience in software development for companies and private consumers."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://it.linkedin.com/in/federico-nembrini"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Scarica il mio curriculum"
+    btnText: "Download my curriculum"
     URL: "documents/Federico Nembrini - Curriculum.pdf"
 
   items:
     - title: "Full-Stack Developer"
+      stack: "C#, ASP.NET (Web Forms, MVC, Web API), T-SQL, Xamarin Forms, NAV/Dynamics NAV"
       company: "Gea Advanced Solutions"
-      duration: "Agosto 2018 - Adesso"
+      duration: "Agosto 2018 - Now"
 
-    - title: "Informatica e Telecomunicazione"
+    - title: "Freelancing"
+      stack: "C#, .NET Core (Console Windows, MacOS and Linux), Python"
+      duration: "January 2021 - Now"
+
+    - title: "Information Technology and Telecommunications"
       company: "I.T.I.S. Magistri Cumacini"
       duration: "2013 - 2018"
 
 # Client & Work
 client_and_work:
-  title: "Progetti"
+  title: "Projects"
   enable: true
 
   # clients:
@@ -123,12 +128,12 @@ client_and_work:
 
   works:
     - title: "Giorgio Turati - Web Portfolio"
-      description: "Portfolio web sviluppato secondo le indicazioni del collega ed amico Giorgio Turati, fashion designer.
+      description: "Web portfolio developed according to the instructions of colleague and friend Giorgio Turati, fashion designer
       <br>
-      Il progetto comprende lo sviluppo di un sito web statico realizzato tramite il framework \"Hugo\", pubblicato tramite Netlify utilizzando l'integrazione contiua collegata a GitHub."
+      The project involves the development of a static website built using the framework \"Hugo\", published via Netlify using the contiguous integration linked to GitHub."
       button:
         icon: "icon-arrow-right"
-        btnText: "Visita"
+        btnText: "Go to"
         URL: "https://www.giorgioturati.com"
       image:
         x: "img/works/GiorgioTurati_Portfolio_@1x.png"
@@ -136,7 +141,7 @@ client_and_work:
       is_even: false
     
     - title: "Fashion Editorials - Mobile App and Services"
-      description: "Personale applicazione sviluppata per proporre un'alternativa di visualizzazione al sito <a target='_blank' href='https://www.fashioneditorials.com/' rel='noopener'>FashionEditorials.com</a>"
+      description: "Personal application developed to offer a visualisation alternative to the site <a target='_blank' href='https://www.fashioneditorials.com/' rel='noopener'>FashionEditorials.com</a>"
       button:
         icon: "icon-arrow-right"
         btnText: "Vimeo"
@@ -147,7 +152,7 @@ client_and_work:
       is_even: true
 
     - title: "HomeSecurity - Mobile App"
-      description: "Applicazione che permette la visione da smartphone di flussi video, principalmente videocamere."
+      description: "Application that allows the viewing of video streams, mainly video cameras, from smartphones."
       button:
         icon: "icon-arrow-right"
         btnText: "Github"
@@ -186,30 +191,22 @@ client_and_work:
 # contact
 contact:
   enable: true
-  title: "Contatti"
+  title: "Contacts"
   form:
     action: "#"
     method: "POST"
-    full_name: "Nome e Cognome"
-    email: "Indirizzo E-Mail"
-    message: "Scrivi il tuo messaggio qui"
+    full_name: "Name and Surname"
+    email: "E-Mail Address"
+    message: "Write your message here."
   phone:
-    title: "Numero di telefono"
+    title: "Telephone Number"
     number: "+39 393 26 72 250"
   email:
     title: "E-Mail"
     email: '<a href="mailto:federico.nembrini@protonmail.com">federico.nembrini@protonmail.com</a>'
   address:
-    title: "Indirizzo"
-    address: "Via Rovelli 34, Senna Comasco, Como, Lombardia, Italia"
+    title: "Address"
+    address: "Via Rovelli 34, Senna Comasco, Como, Italy"
   button:
     icon: "icon-mail-fill"
-    btnText: "Invia Messaggio"
-
-# newsletter
-# newsletter:
-#   enable: true
-#   title: "Newsletter subscription"
-#   success_message: "Successfully subscribed"
-#   error_message: "Error while subscribing."
-#   note: "We'll never share your email with anyone else."
+    btnText: "Send Message"
